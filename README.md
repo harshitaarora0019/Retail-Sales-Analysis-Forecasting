@@ -72,22 +72,22 @@ Additionally, a basic time-series forecasting technique (moving average) was app
 <h2>📷 Visualizations</h2>
 
 <p><b>Category vs Profit</b></p>
-<img src="images/category_profit.png" width="600">
+<img src="Category vs Profit.png" width="600">
 
 <p><b>Region & Category Contribution</b></p>
-<img src="images/region_category.png" width="600">
+<img src="Region & Category Contribution.png" width="600">
 
 <p><b>Sales by Hour</b></p>
-<img src="images/hourly_sales.png" width="600">
+<img src="Sales by Hour.png" width="600">
 
 <p><b>Sales by Day</b></p>
-<img src="images/day_sales.png" width="600">
+<img src="Sales by Day.png" width="600">
 
 <p><b>Discount vs Profit</b></p>
-<img src="images/discount_analysis.png" width="600">
+<img src="Discount vs Profit.png" width="600">
 
 <p><b>Sales Forecasting Trend</b></p>
-<img src="images/forecasting.png" width="600">
+<img src="Sales Forecasting Trend.png" width="600">
 
 <hr>
 
