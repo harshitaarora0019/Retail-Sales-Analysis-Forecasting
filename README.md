@@ -114,9 +114,6 @@ The red trend line indicates a gradual increase in sales over time, helping to u
 
 <hr>
 
-
-<hr>
-
 <h2>📂 Project Structure</h2>
 
 <pre>
