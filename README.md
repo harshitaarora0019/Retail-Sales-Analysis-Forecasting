@@ -18,7 +18,6 @@ Additionally, a basic time-series forecasting technique (moving average) was app
 </p>
 
 <hr>
-<hr>
 
 <h2>📂 Project Structure</h2>
 
