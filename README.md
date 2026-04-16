@@ -18,6 +18,39 @@ Additionally, a basic time-series forecasting technique (moving average) was app
 </p>
 
 <hr>
+<hr>
+
+<h2>📂 Project Structure</h2>
+
+<table border="1" cellpadding="8">
+<tr>
+<th>File/Folder</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td><b>sales_analysis.py</b></td>
+<td>Main Python script containing data cleaning, analysis, visualization, and forecasting logic.</td>
+</tr>
+
+<tr>
+<td><b>sales_dataset_2026.csv</b></td>
+<td>Dataset used for analysis, containing sales, profit, region, category, time, and discount details.</td>
+</tr>
+
+<tr>
+<td><b>images/</b></td>
+<td>Folder containing all generated graphs and visualizations used in the project.</td>
+</tr>
+
+<tr>
+<td><b>README.md</b></td>
+<td>Project documentation including overview, insights, visualizations, and structure.</td>
+</tr>
+
+</table>
+
+<hr>
 
 <h2>⚙️ Tech Stack</h2>
 
@@ -44,6 +77,7 @@ Additionally, a basic time-series forecasting technique (moving average) was app
 </table>
 
 <hr>
+
 
 <h2>📊 Key Analysis Performed</h2>
 
@@ -111,20 +145,6 @@ It reveals that higher discounts do not always result in higher profit, indicati
 This graph shows the daily sales trend along with a moving average line for forecasting. 
 The red trend line indicates a gradual increase in sales over time, helping to understand future growth direction.
 </p>
-
-<hr>
-
-<h2>📂 Project Structure</h2>
-
-<pre>
-Retail-Sales-Analysis-Forecasting/
-│
-├── sales_analysis.py
-├── sales_dataset_2026.csv
-├── images/
-│   └── (graphs here)
-└── README.md
-</pre>
 
 <hr>
 
