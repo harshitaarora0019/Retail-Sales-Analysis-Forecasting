@@ -68,26 +68,52 @@ Additionally, a basic time-series forecasting technique (moving average) was app
 </ul>
 
 <hr>
-
 <h2>📷 Visualizations</h2>
 
 <p><b>Category vs Profit</b></p>
 <img src="Category vs Profit.png" width="600">
+<p>
+This chart shows that Electronics generates the highest profit among all categories, significantly outperforming others. 
+It indicates a strong dependency of the business on a single category, while other categories contribute comparatively less.
+</p>
 
 <p><b>Region & Category Contribution</b></p>
 <img src="Region & Category Contribution.png" width="600">
+<p>
+This stacked bar chart highlights how different categories contribute to profit across regions. 
+Hyderabad shows heavy reliance on Electronics, whereas Bangalore demonstrates a more balanced distribution across multiple categories.
+</p>
 
 <p><b>Sales by Hour</b></p>
 <img src="Sales by Hour.png" width="600">
+<p>
+This graph represents sales distribution across different hours of the day. 
+Sales peak during evening hours, indicating higher customer activity after typical working hours.
+</p>
 
 <p><b>Sales by Day</b></p>
 <img src="Sales by Day.png" width="600">
+<p>
+This chart shows how sales vary across the days of the week. 
+It helps identify high-performing days and supports planning for targeted promotions and marketing strategies.
+</p>
 
 <p><b>Discount vs Profit</b></p>
 <img src="Discount vs Profit.png" width="600">
+<p>
+This visualization analyzes the impact of discount ranges on average profit. 
+It reveals that higher discounts do not always result in higher profit, indicating the need for optimized discount strategies.
+</p>
 
 <p><b>Sales Forecasting Trend</b></p>
 <img src="Sales Forecasting Trend.png" width="600">
+<p>
+This graph shows the daily sales trend along with a moving average line for forecasting. 
+The red trend line indicates a gradual increase in sales over time, helping to understand future growth direction.
+</p>
+
+<hr>
+
 
 <hr>
 
