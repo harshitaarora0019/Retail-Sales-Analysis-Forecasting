@@ -36,12 +36,6 @@ Additionally, a basic time-series forecasting technique (moving average) was app
 <td><b>sales_dataset_2026.csv</b></td>
 <td>Dataset used for analysis, containing sales, profit, region, category, time, and discount details.</td>
 </tr>
-
-<tr>
-<td><b>images/</b></td>
-<td>Folder containing all generated graphs and visualizations used in the project.</td>
-</tr>
-
 <tr>
 <td><b>README.md</b></td>
 <td>Project documentation including overview, insights, visualizations, and structure.</td>
