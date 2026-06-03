@@ -1,275 +1,375 @@
 <h1 align="center">📊 Retail Sales Analysis & Forecasting</h1>
 
 <p align="center">
-A Data Analytics project focused on uncovering business insights from retail transaction data through
-data cleaning, exploratory data analysis (EDA), visualization, and sales forecasting using Python.
+Transforming Retail Transaction Data into Actionable Business Insights using Python, Data Analysis, Visualization, and Forecasting.
 </p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3.10-blue">
 <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green">
 <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange">
+<img src="https://img.shields.io/badge/EDA-Business%20Insights-purple">
 <img src="https://img.shields.io/badge/Forecasting-Moving%20Average-red">
-<img src="https://img.shields.io/badge/Project-Data%20Analytics-purple">
 </p>
 
----
+<hr>
 
-# 🎯 Business Problem
+<h2>📌 Project Overview</h2>
 
-Retail companies generate thousands of transactions every day. However, raw sales data alone cannot answer important business questions such as:
+<p>
+Retail businesses generate large volumes of transactional data every day. However, raw data alone cannot reveal which products drive profitability, which regions perform best, how discounts impact revenue, or what future sales trends may look like.
+</p>
 
-- Which product categories generate the highest profit?
-- Which regions perform the best?
-- How do discounts impact profitability?
-- What are the peak sales hours?
-- How can future sales trends be estimated?
+<p>
+This project uses Python, Pandas, and Matplotlib to analyze retail sales data, uncover business insights, visualize trends, and perform sales forecasting using Moving Average techniques.
+</p>
 
-This project converts raw retail transaction data into meaningful business insights through data analysis and visualization techniques.
+<hr>
 
----
+<h2>🎯 Project Objectives</h2>
 
-# 📂 Project Structure
+<ul>
+<li>Analyze retail sales performance</li>
+<li>Identify top-performing product categories</li>
+<li>Compare regional profitability</li>
+<li>Study customer purchasing patterns</li>
+<li>Evaluate discount effectiveness</li>
+<li>Forecast future sales trends</li>
+<li>Support data-driven business decisions</li>
+</ul>
 
-```text
+<hr>
+
+<h2>🗂 Dataset Overview</h2>
+
+<table border="1" cellpadding="8">
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+
+<tr>
+<td>Total Records</td>
+<td>1,214</td>
+</tr>
+
+<tr>
+<td>Product Categories</td>
+<td>5</td>
+</tr>
+
+<tr>
+<td>Regions</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>Forecasting Method</td>
+<td>Moving Average</td>
+</tr>
+
+<tr>
+<td>Tools Used</td>
+<td>Python, Pandas, Matplotlib</td>
+</tr>
+
+</table>
+
+<hr>
+
+<h2>📂 Repository Structure</h2>
+
+<pre>
 Retail-Sales-Analysis-Forecasting
+│
+├── screenshot
+│   ├── Category vs Profit.png
+│   ├── Region & Category Contribution.png
+│   ├── Sales by Hour.png
+│   ├── Sales by Day.png
+│   ├── Discount vs Profit.png
+│   └── Sales Forecasting Trend.png
 │
 ├── sales_analysis.py
 ├── sales_dataset_2026.csv
 ├── README.md
-│
-└── assets
-    ├── category_profit.png
-    ├── region_category.png
-    ├── sales_hour.png
-    ├── sales_day.png
-    ├── discount_profit.png
-    └── forecasting.png
-```
+└── LICENSE
+</pre>
 
----
+<hr>
 
-# 🗂 Dataset Overview
+<h2>⚙️ Tech Stack</h2>
 
-| Metric | Value |
-|----------|----------|
-| Total Records | 1,214 |
-| Regions | 4 |
-| Product Categories | 5 |
-| Analysis Type | EDA + Forecasting |
-| Forecasting Method | Moving Average |
-| Tools Used | Python, Pandas, Matplotlib |
+<table border="1" cellpadding="8">
 
----
+<tr>
+<th>Category</th>
+<th>Tools Used</th>
+</tr>
 
-# ⚙️ Tech Stack
+<tr>
+<td>Programming Language</td>
+<td>Python</td>
+</tr>
 
-| Category | Technologies |
-|-----------|------------|
-| Language | Python |
-| Data Analysis | Pandas |
-| Visualization | Matplotlib |
-| Forecasting | Moving Average |
-| Environment | Jupyter Notebook / VS Code |
-| Dataset Handling | CSV |
+<tr>
+<td>Data Analysis</td>
+<td>Pandas</td>
+</tr>
 
----
+<tr>
+<td>Visualization</td>
+<td>Matplotlib</td>
+</tr>
 
-# 🔍 Project Workflow
+<tr>
+<td>Forecasting</td>
+<td>Moving Average</td>
+</tr>
 
-### 1️⃣ Data Collection
+<tr>
+<td>Dataset Handling</td>
+<td>CSV</td>
+</tr>
 
-- Loaded retail sales dataset from CSV.
-- Inspected structure and column information.
+</table>
 
-### 2️⃣ Data Cleaning
+<hr>
 
-- Checked missing values.
-- Removed inconsistencies.
-- Converted date columns into proper datetime format.
-- Prepared data for analysis.
+<h2>🔄 Project Workflow</h2>
 
-### 3️⃣ Exploratory Data Analysis (EDA)
+<h3>1️⃣ Data Collection</h3>
 
-Performed:
+<ul>
+<li>Imported retail sales dataset</li>
+<li>Loaded data using Pandas</li>
+<li>Inspected data quality and structure</li>
+</ul>
 
-- Category-wise profit analysis
-- Region-wise performance comparison
-- Sales trend analysis
-- Hourly sales analysis
-- Day-wise sales analysis
-- Discount impact analysis
+<h3>2️⃣ Data Cleaning</h3>
 
-### 4️⃣ Data Visualization
+<ul>
+<li>Validated records</li>
+<li>Checked missing values</li>
+<li>Prepared data for analysis</li>
+<li>Converted date columns into appropriate formats</li>
+</ul>
 
-Created visual reports to identify:
+<h3>3️⃣ Exploratory Data Analysis (EDA)</h3>
 
-- Revenue trends
-- Profit drivers
-- Regional performance
-- Customer purchasing behavior
+<ul>
+<li>Category-wise profit analysis</li>
+<li>Region-wise performance comparison</li>
+<li>Hourly sales analysis</li>
+<li>Daily sales trend analysis</li>
+<li>Discount impact analysis</li>
+</ul>
 
-### 5️⃣ Forecasting
+<h3>4️⃣ Data Visualization</h3>
 
-Implemented Moving Average Forecasting to estimate future sales trends and identify business growth patterns.
+<ul>
+<li>Created business-focused visual reports</li>
+<li>Identified sales and profit trends</li>
+<li>Highlighted regional performance</li>
+</ul>
 
----
+<h3>5️⃣ Forecasting</h3>
 
-# 📊 Key Analysis Performed
+<ul>
+<li>Applied Moving Average Forecasting</li>
+<li>Analyzed future sales direction</li>
+<li>Detected long-term growth trends</li>
+</ul>
 
-✅ Category-wise Profit Analysis
+<hr>
 
-✅ Region-wise Performance Analysis
+<h2>📊 Key Analysis Performed</h2>
 
-✅ Hourly Sales Trend Analysis
+<ul>
+<li>✅ Category-wise Profit Analysis</li>
+<li>✅ Region-wise Performance Analysis</li>
+<li>✅ Hourly Sales Trend Analysis</li>
+<li>✅ Day-wise Sales Analysis</li>
+<li>✅ Discount vs Profit Analysis</li>
+<li>✅ Sales Forecasting</li>
+</ul>
 
-✅ Day-wise Sales Analysis
+<hr>
 
-✅ Discount vs Profit Analysis
+<h2>💡 Key Business Insights</h2>
 
-✅ Time-Series Sales Forecasting
+<ul>
 
----
+<li>
+<b>Electronics contributed approximately 62% of total profit</b>,
+making it the most profitable category and indicating strong dependence on a single product segment.
+</li>
 
-# 💡 Business Insights
+<li>
+<b>Bangalore showed the most balanced category contribution</b>,
+demonstrating diversified growth across multiple product groups.
+</li>
 
-### 📈 Electronics Drives Profitability
+<li>
+<b>Peak sales occurred between 7 PM and 9 PM</b>,
+indicating higher customer activity during evening hours.
+</li>
 
-Electronics contributed approximately **62% of total profit**, making it the most profitable category and indicating a strong dependency on a single product segment.
+<li>
+<b>Discounts above 20% reduced profitability</b>,
+showing that excessive discounting can negatively impact business performance.
+</li>
 
-### 🌍 Regional Performance
+<li>
+<b>Sales exhibited a gradual upward trend</b>,
+suggesting positive growth and increasing demand over time.
+</li>
 
-Bangalore demonstrated the most balanced profit contribution across multiple categories, while some regions showed dependency on specific product types.
+</ul>
 
-### ⏰ Peak Sales Hours
+<hr>
 
-Customer purchasing activity was highest between **7 PM and 9 PM**, suggesting strong evening demand.
+<h2>📷 Visualizations</h2>
 
-### 💸 Discount Strategy Findings
+<h3>📈 Category vs Profit</h3>
 
-Discounts above **20%** reduced profitability by approximately **15%**, indicating that aggressive discounting does not always improve business performance.
+<img src="screenshot/Category vs Profit.png" width="850">
 
-### 📊 Sales Growth Trend
+<p>
+Highlights the profit contribution of each product category and identifies Electronics as the primary profit driver.
+</p>
 
-Sales showed a gradual upward trend over time, indicating positive business growth and market demand.
+<hr>
 
----
+<h3>🌍 Region & Category Contribution</h3>
 
-# 📷 Visualizations
+<img src="screenshot/Region & Category Contribution.png" width="850">
 
-## Category vs Profit
+<p>
+Shows how product categories contribute to profitability across different regions.
+</p>
 
-<img src="assets/category_profit.png" width="800">
+<hr>
 
-This visualization identifies the most profitable product categories and highlights category dependency.
+<h3>⏰ Sales by Hour</h3>
 
----
+<img src="screenshot/Sales by Hour.png" width="850">
 
-## Region & Category Contribution
+<p>
+Illustrates hourly customer purchasing behavior and identifies peak shopping hours.
+</p>
 
-<img src="assets/region_category.png" width="800">
+<hr>
 
-Shows category-wise profit distribution across different regions.
+<h3>📅 Sales by Day</h3>
 
----
+<img src="screenshot/Sales by Day.png" width="850">
 
-## Sales by Hour
+<p>
+Displays sales performance across different days of the week.
+</p>
 
-<img src="assets/sales_hour.png" width="800">
+<hr>
 
-Identifies peak customer purchasing hours.
+<h3>💸 Discount vs Profit</h3>
 
----
+<img src="screenshot/Discount vs Profit.png" width="850">
 
-## Sales by Day
+<p>
+Analyzes the relationship between discount levels and profitability.
+</p>
 
-<img src="assets/sales_day.png" width="800">
+<hr>
 
-Analyzes sales performance across weekdays.
+<h3>📊 Sales Forecasting Trend</h3>
 
----
+<img src="screenshot/Sales Forecasting Trend.png" width="850">
 
-## Discount vs Profit
+<p>
+Visualizes historical sales performance alongside forecasted sales trends using Moving Average forecasting.
+</p>
 
-<img src="assets/discount_profit.png" width="800">
+<hr>
 
-Demonstrates the relationship between discount strategies and profitability.
+<h2>📈 Results Summary</h2>
 
----
+<table border="1" cellpadding="8">
 
-## Sales Forecasting Trend
+<tr>
+<th>KPI</th>
+<th>Result</th>
+</tr>
 
-<img src="assets/forecasting.png" width="800">
+<tr>
+<td>Records Analyzed</td>
+<td>1,214</td>
+</tr>
 
-Shows historical sales patterns and forecasted trend using Moving Average.
+<tr>
+<td>Regions Covered</td>
+<td>4</td>
+</tr>
 
----
+<tr>
+<td>Product Categories</td>
+<td>5</td>
+</tr>
 
-# 📈 Forecasting Approach
+<tr>
+<td>Most Profitable Category</td>
+<td>Electronics</td>
+</tr>
 
-### Method Used
+<tr>
+<td>Peak Sales Time</td>
+<td>7 PM – 9 PM</td>
+</tr>
 
-Moving Average Forecasting
+<tr>
+<td>Forecasting Method</td>
+<td>Moving Average</td>
+</tr>
 
-### Purpose
+</table>
 
-- Smooth sales fluctuations
-- Identify long-term trend
-- Estimate future business performance
+<hr>
 
-### Benefits
+<h2>🧠 Skills Demonstrated</h2>
 
-- Easy to interpret
-- Effective for trend detection
-- Useful for preliminary forecasting analysis
+<ul>
+<li>Data Cleaning</li>
+<li>Data Validation</li>
+<li>Exploratory Data Analysis (EDA)</li>
+<li>Business Intelligence</li>
+<li>Data Visualization</li>
+<li>Sales Trend Analysis</li>
+<li>Forecasting</li>
+<li>Business Insight Generation</li>
+</ul>
 
----
+<hr>
 
-# 🧠 Skills Demonstrated
+<h2>🎓 Learning Outcomes</h2>
 
-- Data Cleaning
-- Data Validation
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Business Intelligence
-- Statistical Analysis
-- Time-Series Analysis
-- Sales Forecasting
-- Business Insight Generation
-- Problem Solving
+<ul>
+<li>Data Cleaning and Preparation</li>
+<li>Exploratory Data Analysis</li>
+<li>Business Insight Generation</li>
+<li>Trend Analysis</li>
+<li>Forecasting Fundamentals</li>
+<li>Data-Driven Decision Making</li>
+</ul>
 
----
+<hr>
 
-# 🚀 Results
+<h2>👩‍💻 Author</h2>
 
-| KPI | Result |
-|-------|---------|
-| Records Analyzed | 1,214 |
-| Product Categories | 5 |
-| Regions Analyzed | 4 |
-| Most Profitable Category | Electronics |
-| Peak Sales Time | 7 PM – 9 PM |
-| Forecasting Method | Moving Average |
+<p>
+<b>Harshita Arora</b><br><br>
+</p>
 
----
-
-# 🎓 Learning Outcomes
-
-Through this project I gained hands-on experience in:
-
-- Real-world data cleaning techniques
-- Business-focused exploratory analysis
-- Data visualization best practices
-- Trend identification
-- Sales forecasting fundamentals
-- Converting raw data into actionable business insights
-
----
-
-# 👩‍💻 Author
-
-### Harshita Arora
+<hr>
 
 <p align="center">
-<b>Transforming Raw Data into Actionable Business Insights 📊</b>
+<b>📊 Turning Raw Data into Actionable Business Insights</b>
 </p>
