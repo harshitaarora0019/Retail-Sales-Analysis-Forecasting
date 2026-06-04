@@ -1,10 +1,10 @@
 <h1 align="center">📊 Retail Sales Analysis & Forecasting</h1>
-
+Live Demo : https://retail-sales-analysis-forecasting-5e9l6t34kz7pynt48vn2fs.streamlit.app/
 
 <p align="center">
 Transforming Retail Transaction Data into Actionable Business Insights using Python, Data Analysis, Visualization, and Forecasting.
 </p>
-Live Demo : https://retail-sales-analysis-forecasting-5e9l6t34kz7pynt48vn2fs.streamlit.app/
+
 
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3.10-blue">
